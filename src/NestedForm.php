@@ -609,4 +609,14 @@ class NestedForm extends Field implements RelatableField
             ]
         );
     }
+
+    public function relationshipName()
+    {
+        return $this->viaRelationship;
+    }
+
+    public function relationshipType()
+    {
+        return $this->isManyRelationsip() ? 'hasMany' : 'hasOne';
+    }
 }

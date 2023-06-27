@@ -36,6 +36,6 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require-dev": {
-    "laravel/nova": "^3.0"
+    "laravel/nova": "^4.25.1"
   }
 }
